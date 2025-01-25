@@ -1,5 +1,5 @@
 const socket = io(
-  "http://localhost:4000",
+  "https://chatting-app-phzk.onrender.com",
   {
     transports: ["websocket"], // Use only websocket transport
     upgrade: false, // Disable upgrade to avoid switching transports
